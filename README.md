@@ -5,8 +5,6 @@ Getting and Cleaning Data Coursera course
 
 #Introduction
 
-First, sorry for my English, I’m Spanish.
-
 The objective for this project is obtain a cleaning data set that can be used for subsequent analysis. The initial information needed in the project are taken from multiple text files included in The UCI Machine Learning Repository.
 The description and original dataset are taken from the web site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
