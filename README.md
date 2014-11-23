@@ -1,4 +1,4 @@
-Getting-and-Cleaning-Data-Course
-================================
+Getting-and-Cleaning-Data-Coursera-Course
+=========================================
 
 Getting and Cleaning Data Coursera course
