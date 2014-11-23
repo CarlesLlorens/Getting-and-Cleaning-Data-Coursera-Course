@@ -12,6 +12,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 #Attribute Information
 
 For each record in the dataset it is provided:
+
   •	Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
   
   •	Triaxial Angular velocity from the gyroscope.
@@ -25,14 +26,23 @@ For each record in the dataset it is provided:
 #Read data from files and name attributes
 
 Initially the script read all file texts needed for make the job. These files are:
+
 •	features.txt
+
 •	activity_labels.txt
+
 •	subject_train.txt
+
 •	x_train.txt
+
 •	y_train.txt
+
 •	subject_test.txt
+
 •	x_test.txt
+
 •	y_test.txt
+
 The script read these files and assign column names to train and test datasets. 
 
 #Merge the training and the test sets to create one data set
