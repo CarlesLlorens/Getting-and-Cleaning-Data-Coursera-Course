@@ -15,7 +15,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The repository contains 4 files:
 - Readme.md : General information of the project
-- CodeBook.md : A description of the data.
+- CodeBook.md : A description of the original data, the job steps doing in the script and the description of final tidy dataset generated.
 - run_analysis.R : The main script that makes the job of the course project
 - tidyData.txt : The file of the tidy data obtained by the script run_analysis.R
 
