@@ -18,6 +18,8 @@ For each record in the dataset it is provided:
 - Its activity label.
 - An identifier of the person who who carried out the experiment.
 
+# Brief description of job steps doing in the script
+
 ###Read data from files and name attributes
 
 Initially the script read all file texts needed for make the job. These files are:
@@ -51,3 +53,30 @@ Later, the script change columnNames vector for to give better descriptive names
 
 Finally, we need to produce only a dataset with the average of each variable for each activity and subject. This dataset is written to a text file.
 
+#Result tidy dataset
+
+The final dataset created has the next columns:
+
+- activityId
+- subjectId	
+- timeBodyAccMagnitudeMean	
+- timeBodyAccMagnitudeStdDev
+- timeGravityAccMagnitudeMean
+- timeGravityAccMagnitudeStdDev
+- timeBodyAccJerkMagnitudeMean
+- timeBodyAccJerkMagnitudeStdDev
+- timeBodyGyroMagnitudeMean
+- timeBodyGyroMagnitudeStdDev
+- timeBodyGyroJerkMagnitudeMean
+- timeBodyGyroJerkMagnitudeStdDev
+- freqBodyAccMagnitudeMean
+- freqBodyAccMagnitudeStdDev
+- freqBodyAccJerkMagnitudeMean
+- freqBodyAccJerkMagnitudeStdDev
+- freqBodyGyroMagnitudeMean
+- freqBodyGyroMagnitudeStdDev
+- freqBodyGyroJerkMagnitudeMean
+- freqBodyGyroJerkMagnitudeStdDev
+- activityLabel
+
+corresponding to the identification of activity and his label, identification of the subject and the mean and the standard deviation of features extracted from the original dataset.
