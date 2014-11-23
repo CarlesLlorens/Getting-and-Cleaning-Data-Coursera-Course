@@ -56,7 +56,7 @@ The script selects the necessary attributes. For do this, search in the column n
 
 Later, the script merge the dataset obtained with the activityType dataset for include the descriptive activity names
 
-#Appropriately label the data set with descriptive activity names
+###Appropriately label the data set with descriptive activity names
 Later, the script change columnNames vector for to give better descriptive names to the columns. 
 
 ###Create a second, independent tidy data set with the average of each variable for each activity and each subject
