@@ -48,7 +48,7 @@ The script read these files and assign column names to train and test datasets.
 #Merge the training and the test sets to create one data set
 Next, the script merges the train and test datasets and generates one dataset saving all column names in a variable.
 
-#Extract only the measurements on the mean and standard deviation for each measurement
+##Extract only the measurements on the mean and standard deviation for each measurement
 
 The script selects the necessary attributes. For do this, search in the column names which attributes corresponds to a mean or standard deviation. Later create a dataset with only the necessary columns.
 
@@ -59,7 +59,7 @@ Later, the script merge the dataset obtained with the activityType dataset for i
 #Appropriately label the data set with descriptive activity names
 Later, the script change columnNames vector for to give better descriptive names to the columns. 
 
-#Create a second, independent tidy data set with the average of each variable for each activity and each subject
+##Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 Finally, we need to produce only a dataset with the average of each variable for each activity and subject. This dataset is written to a text file.
 
