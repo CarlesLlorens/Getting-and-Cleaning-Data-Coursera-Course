@@ -115,4 +115,4 @@ tidyData = aggregate(data.totalNoActLabels[,names(data.totalNoActLabels) != c('a
 tidyData = merge(tidyData,activityLabels,by='activityId',all.x=TRUE);
 
 # Export dataset tidyData and create txt file
-write.table(tidyData, './tidyData.txt',row.names=TRUE,sep='\t');
+write.table(tidyData, './tidyData.txt',row.names=F,sep='\t');
